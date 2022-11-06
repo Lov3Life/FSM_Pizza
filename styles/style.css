@@ -165,4 +165,13 @@ h2 {
 
 footer {
   box-shadow: 0px -5px 0.7em #993333;
+  margin-top: 48px;
+}
+
+.rotate {
+  transform: rotate(-90deg);
+}
+
+.rotate2 {
+  transform: rotate(90deg);
 }/*# sourceMappingURL=style.css.map */
