@@ -17,7 +17,7 @@ body {
   background-position: center center;
   background-attachment: fixed;
   font-family: "Lato", sans-serif, Helvetica, Arial;
-  color: #e6e600;
+  color: #ffdf2b;
   scroll-behavior: smooth;
 }
 
@@ -49,7 +49,7 @@ nav {
 }
 .nav-menu .nav-item a {
   text-decoration: none;
-  color: #e6e600;
+  color: #ffdf2b;
 }
 .nav-menu .nav-item a:hover {
   color: #ffff33;
@@ -104,7 +104,7 @@ h1 {
   height: 300px;
 }
 .photos-box .photo-box span {
-  color: #e6e600;
+  color: #ffdf2b;
   font-weight: bold;
 }
 
