@@ -5,6 +5,7 @@ html {
 
 * {
   box-sizing: border-box;
+  z-index: 1;
 }
 
 body {
@@ -19,6 +20,15 @@ body {
   font-family: "Lato", sans-serif, Helvetica, Arial;
   color: #ffdf2b;
   scroll-behavior: smooth;
+}
+
+body::before {
+  content: "";
+  display: block;
+  position: fixed;
+  inset: 0;
+  background: rgba(102, 51, 0, 0.1);
+  z-index: 0;
 }
 
 header, footer {
